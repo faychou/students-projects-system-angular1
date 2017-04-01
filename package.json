@@ -1,0 +1,14 @@
+{
+  "name": "students-projects-system-angular1",
+  "version": "0.0.1",
+  "description": "students projects system by angular.js 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular.js"
+  ],
+  "author": "faychou",
+  "license": "ISC"
+}
