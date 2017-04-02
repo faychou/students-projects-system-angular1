@@ -18,7 +18,7 @@
 <body>
     <!-- -- -- -- -- -- -- 头部导航 -- -- -- -- -- -- -->
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <!-- 小屏幕显示菜单按钮 -->
                 <div class="navbar-header">
@@ -29,14 +29,14 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="">
-                        <img alt="bunfly" src="image/com/bf-w-logo.png">
+                        <img class="logo" alt="bunfly" src="image/com/bf-w-logo.png">
                     </a>
                 </div>
 
                 <!-- 导航及搜索 -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class=""><a href="#"><span class="glyphicon glyphicon-home"></span> 项目</a></li>
+                        <li class=""><a href=""><span class="glyphicon glyphicon-home"></span> 项目</a></li>
                     </ul>
                     <form class="navbar-form navbar-right">
                         <div class="form-group">
@@ -53,10 +53,10 @@
     <!-- 最外层居中效果 -->
     <div class="container">
         <!-- -- -- -- -- -- -- 中间项目展示 -- -- -- -- -- -- -->
-        <div></div>
+        <div id="main"></div>
 
         <!-- -- -- -- -- -- -- 底部 -- -- -- -- -- -- -->
-        <footer></footer>
+        <footer class="footer"></footer>
     </div>
     <!--最外层 .container 结束-->
 
@@ -65,6 +65,7 @@
     <script src="http://apps.bdimg.com/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
     <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/grid.js"></script>
     <script src="js/index.js"></script>
 </body>
 
