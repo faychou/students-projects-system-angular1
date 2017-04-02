@@ -44,7 +44,7 @@ a:hover {
 }
 
 
-/*-- -- -- -- -- -- -- 头部导航 -- -- -- -- -- -- */
+/*-- -- -- -- -- -- 头部导航 -- -- -- -- -- -- */
 
 .navbar {
     border-radius: 0;
@@ -116,8 +116,34 @@ a:hover {
     }
 }
 
+
+/*-- -- -- -- -- -- 中间项目展示 -- -- -- -- -- --*/
+
 #main {
     height: 800px;
+}
+
+
+/*单个项目模版*/
+
+.excellent-item {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 10px;
+    -webkit-box-shadow: 0 5px 10px 0px rgba(146, 146, 146, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(146, 146, 146, 0.1);
+    box-shadow: 0 5px 10px 0px rgba(146, 146, 146, 0.1);
+}
+
+.excellent-item-img {}
+
+.excellent-item-img a {
+    display: block;
+}
+
+.excellent-item-img a img {
+    width: 100%;
+    height: auto;
 }
 
 

@@ -15,7 +15,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-app="bunflyApp">
     <!-- -- -- -- -- -- -- 头部导航 -- -- -- -- -- -- -->
     <header>
         <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
@@ -53,7 +53,11 @@
     <!-- 最外层居中效果 -->
     <div class="container">
         <!-- -- -- -- -- -- -- 中间项目展示 -- -- -- -- -- -- -->
-        <div id="main"></div>
+        <div id="main" ng-controller="BunflyCtrl">
+            <div class="row">
+                <excellent-item></excellent-item>
+            </div>
+        </div>
 
         <!-- -- -- -- -- -- -- 底部 -- -- -- -- -- -- -->
         <footer class="footer"></footer>
@@ -67,6 +71,7 @@
     <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="js/grid.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/directive.js"></script>
 </body>
 
 </html>
