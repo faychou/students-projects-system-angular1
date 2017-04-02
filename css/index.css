@@ -1,0 +1,101 @@
+html,
+body,
+div,
+a,
+span,
+p,
+h1,
+h2,
+header,
+nav,
+footer,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+footer {
+    display: block;
+}
+
+body {
+    font-size: 16px;
+    background: #f4f4f4;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1894da;
+}
+
+
+/*-- -- -- -- -- -- -- 头部导航 -- -- -- -- -- -- */
+
+.navbar {
+    border-radius: 0;
+}
+
+
+/*logo*/
+
+.navbar-brand {
+    width: 194px;
+    height: 80px;
+}
+
+.navbar-brand img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*隐藏菜单按钮*/
+
+.navbar-toggle {
+    margin-top: 23px;
+}
+
+@media (min-width: 768px) {
+    /*导航*/
+    .nav {
+        padding-left: 50px;
+    }
+    .nav>li>a {
+        height: 80px;
+        line-height: 80px;
+        padding-top: 0;
+        font-size: 18px;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+        color: deepskyblue;
+        font-weight: 800;
+    }
+    /*搜索*/
+    .navbar-form {
+        width: 400px;
+        height: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 80px;
+    }
+    .form-group {
+        width: 100%;
+    }
+    .form-control {
+        border-radius: 0;
+    }
+    .navbar-form .form-control {
+        width: 100%;
+    }
+}
