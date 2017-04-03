@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eee;
+}
+
+a {
+    color: rgba(55,61,73,0.975);
+    text-decoration: none;
+}
+a:hover {
+    color: lightseagreen;
+}
+
+/*头部*/
+header{
+    width: 100%;
+    height: 100px;
+    background: rgba(55,61,73,0.975);
+}
+header h1{
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+/*主体外层包裹*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*搜索*/
+.search {
+    width: 100%;
+    text-align: center;
+}
+
+.search input {
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    width: 80%;
+}
+
+.search input:active{
+    border:1px solid lightseagreen;
+}
+
+/*文章主体*/
+.main {
+    margin: 20px;
+}
+
+/*文章列表项*/
+.article {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 1s;
+}
+
+.article.ng-enter,.article.ng-leave.ng-leave-active {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+.article.ng-enter.ng-enter-active,.article.ng-leave {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.article .label {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fc5c78;
+    color: #fff;
+}
+
+.article .article-title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: lightseagreen;
+}
+
+.article .article-title a{
+    color:#fff;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.article .article-title a:hover{
+    font-size: 25px;
+}
+
+/*文章详情*/
+.detail{
+    
+}
+
+.detail-title {
+    text-align: center;
+}
+
+.detail-info {
+    padding: 20px;
+}
+
+.detail-content,.detail-comments {
+    margin: 20px 0;
+}
+
+.comments-area{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.comments-area textarea {
+    width: 100%;
+    height: 50px;
+}

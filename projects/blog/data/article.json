@@ -1,0 +1,121 @@
+{
+    "articles": [{
+        "id": 1,
+        "title": "meta标签全解",
+        "label": "HTML",
+        "author": "飞舟",
+        "time": "2016-10-7",
+        "content": "meta元素可提供相关页面的元信息(meta-information)，比如针对搜索引擎的页面描述和关键词。 标签位于文档的头部<head>内，是html语言里的一个辅助性标签，里面的内容不会显示在网页中。元素的属性定义了与文档相关联的名称/值对。不同的属性又有不同的参数值，这些不同的参数值就实现了不同的网页功能。有两个属性，分别是http-equiv属性和name属性。",
+        "comments": ["学习了", "讲得真好", "哈哈哈"],
+        "url": "http://www.faychou.com/meta/",
+        "hot": 20
+    }, {
+        "id": 2,
+        "title": "PowerPoint里面无法进行中文输入，原因为何？",
+        "label": "office",
+        "author": "飞舟",
+        "time": "2015-10-7",
+        "content": "微软的office系列软件很是好用，但是也伴随着很多的问题，今天就来谈谈PPT中无法输入中文的情况。 具体的症状应该是这样的： 在其它软件中（如记事本中）是可以打出中文字符的； 唯独PPT中只能输入英文，一旦切换到中文输入法时就无法打出中文； 可是却可以通过复制粘贴的方式将中文粘...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/powerpointwufashuruzhongwen/",
+        "hot": 52
+    }, {
+        "id": 3,
+        "title": "萌妹子必备：180+超可爱的PNG素材",
+        "label": "素材",
+        "author": "飞舟",
+        "time": "2016-9-7",
+        "content": "超可爱，萌萌哒的PNG素材！ 重要！获取方法： 关注微信号“飞sir学府”后回复关键字“解压密码”，即可获得压缩包解压密码。 下载地址 转载请注明：飞舟博客 » 萌妹子必备：180+超可爱的PNG素材...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/180chaokeaipngsucai/",
+        "hot": 32
+    }, {
+        "id": 4,
+        "title": "ppt文件如何保存为视频",
+        "label": "office",
+        "author": "飞舟",
+        "time": "2016-10-7",
+        "content": "一、ppt2010版本导出视频 打开ppt，点击“文件”菜单； 选择“保存并发送”;点击“创建视频”； 然后选择保存的视频品质（即分辨率），可根据需要的品质选择不同级别。 点击创建视频按钮，选择保存位置即可。 二、Ppt2013版本导出视频 打开ppt，点击“文件”菜单；...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/pptbaocunweishipin/",
+        "hot": 44
+    }, {
+        "id": 5,
+        "title": "如何在PPT中设置移动鼠标出现标注文字？",
+        "label": "office",
+        "author": "飞舟",
+        "time": "2017-1-7",
+        "content": "首先我们来理一下思路，当鼠标移动到图片上时，跳转到第二张幻灯片，而这一张幻灯片与第一张一样，只是多了个文字，这样，从第一张到第二张幻灯片，我们眼睛看到的效果就是出现了文字，然后当鼠标移开图片时，又回到第一张幻灯片，实现文字消失。",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/ruhezaipptshezhishubiaoyiguochuxianwenzibiaozhu/",
+        "hot": 18
+    }, {
+        "id": 6,
+        "title": "如何查看自己家的无线网络是否被蹭网",
+        "label": "计算机",
+        "author": "飞舟",
+        "time": "2016-10-7",
+        "content": "如何查看自己家的无线网络是否被蹭网 2、什么是MAC地址以及如何查看   现在网络技术越来越发达了，各种手机APP也层出不穷，离开了网络好像什么也干不了似的，所以就出现了一些WiFI万能钥匙，即使自己没有网，也可以连接附近的WiFI。所以当我们在家上网时发现网络很卡...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/ruhechakanzijijiadewuxianwangluobeicengwang/",
+        "hot": 22
+    }, {
+        "id": 7,
+        "title": "同名文件被替换覆盖后可以恢复吗？",
+        "label": "计算机",
+        "author": "飞舟",
+        "time": "2016-8-17",
+        "content": "前两天一同事找我，说他辛辛苦苦写的计划被一个同名文件给覆盖了，想死的心都有了，问我有没有办法恢复被覆盖的文件？ 也许很多朋友都有遇到过这种情况，当时除了懊恼，烦躁，恨自己怎么那么手快，点击了确认覆盖。所以就只能再苦逼的重做。 NO NO NO！ 其实事情还是可以有回转的余地的，为...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/tongmingwenjianbeifugaihoukeyihuifuma/",
+        "hot": 82
+    }, {
+        "id": 8,
+        "title": "购买电脑时知道这些术语就再也不怕被商家坑了",
+        "label": "计算机",
+        "author": "飞舟",
+        "time": "2016-10-7",
+        "content": "买电脑时我们要怎样看配置，选一款适合自己的电脑，才不会被商家忽悠。简单的从下面几点来谈谈。 一、看CPU：右键点击我的电脑——属性，就可以查看电脑的配置了。 CPU品牌主要有两大阵营，分别是Intel(英特尔)和AMD。而Intel的CPU又分为Pentium(奔腾)、Celer...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/diannaopeizhixuanze/",
+        "hot": 38
+    }, {
+        "id": 9,
+        "title": "Internet Download Manager（IDM）下载器",
+        "label": "软件",
+        "author": "飞舟",
+        "time": "2016-10-11",
+        "content": "IDM下载器是国内外优秀下载工具，支持IE, Firefox, Chrome等所有浏览器，兼容所有Windows平台。可以提升你的下载速度最高达5倍,续传功能可以恢复因为断线、网络问题、计算机当机甚至无预警的停电导致下传到一半的软件。更有动态档案分割、多重下载点等技术，为你提供极...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/internet-download-managerxiazaiqi/",
+        "hot": 28
+    }, {
+        "id": 10,
+        "title": "简单四步即可处理好PPT背景音乐和视频的冲突",
+        "label": "office",
+        "author": "飞舟",
+        "time": "2016-10-7",
+        "content": "PPT中背景音乐和视频冲突时该如何设置 ?也许我们在制作PPT的时候会遇到这么个问题： 从第一页到最后一页都使用了背景音乐，同时在其中间某一页使用了视频。如何在播放视频的时候，暂停播放背景音乐，当视频播放完毕后，背景音乐接着继续播放而不是重头开始。 方法： 1、先设置好背...",
+        "comments": ["学习了",
+            "讲得真好", "哈哈哈"
+        ],
+        "url": "http://www.faychou.com/pptbeijingmusichevideochongtu/",
+        "hot": 8
+    }]
+}

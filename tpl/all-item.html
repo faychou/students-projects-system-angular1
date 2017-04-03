@@ -1,22 +1,22 @@
-<div class="col-md-6">
-    <div class="excellent-item">
-        <div class="excellent-item-img">
+<div class="col-md-12">
+    <div class="all-item clearfix">
+        <div class="all-item-img">
             <a ng-href="{{item.url}}" title="{{item.itemName}}">
-                <img ng-src="{{item.exImg}}" alt="{{item.itemName}}">
+                <img ng-src="{{item.img}}" alt="{{item.itemName}}">
             </a>
         </div>
-        <div class="excellent-item-box">
-            <div class="excellent-item-title">
+        <div class="all-item-box">
+            <div class="all-item-title">
                 <h3>
                     <a ng-href="{{item.url}}">{{item.itemName}}</a>
                 </h3>
             </div>
-            <div class="excellent-item-author">
+            <div class="all-item-author">
                 <h4>
                     <a ng-repeat="a in item.author" ng-href="{{a.resume}}">{{a.name}}&nbsp;</a>
                 </h4>
             </div>
-            <div class="excellent-item-text">
+            <div class="all-item-text">
                 <p>{{item.description}}</p>
             </div>
         </div>

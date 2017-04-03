@@ -1,0 +1,13 @@
+{
+    "id": 5,
+    "title": "如何在PPT中设置移动鼠标出现标注文字？",
+    "label": "office",
+    "author": "飞舟",
+    "time": "2017-1-7",
+    "content": "首先我们来理一下思路，当鼠标移动到图片上时，跳转到第二张幻灯片，而这一张幻灯片与第一张一样，只是多了个文字，这样，从第一张到第二张幻灯片，我们眼睛看到的效果就是出现了文字，然后当鼠标移开图片时，又回到第一张幻灯片，实现文字消失。",
+    "comments": ["学习了",
+        "讲得真好", "哈哈哈"
+    ],
+    "url": "http://www.faychou.com/ruhezaipptshezhishubiaoyiguochuxianwenzibiaozhu/",
+    "hot": 18
+}

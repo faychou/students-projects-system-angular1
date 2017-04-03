@@ -40,7 +40,7 @@
                     </ul>
                     <form class="navbar-form navbar-right">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
+                            <input type="text" class="form-control" placeholder="Search …">
                         </div>
                     </form>
                 </div>
@@ -51,12 +51,18 @@
     </header>
 
     <!-- 最外层居中效果 -->
-    <div class="container">
+    <div class="container wrap">
         <!-- -- -- -- -- -- -- 中间项目展示 -- -- -- -- -- -- -->
         <div id="main" ng-controller="BunflyCtrl">
-            <div class="row">
-                <excellent-item></excellent-item>
+            <!--项目分类-->
+            <div class="items-type">
+                <h5 class="clearfix text-center">
+                    <a href="#" class=""> 优秀作品</a> ·
+                    <a href="#/all" class="">全部作品</a>
+                </h5>
             </div>
+            <!--项目列表-->
+            <div ui-view></div>
         </div>
 
         <!-- -- -- -- -- -- -- 底部 -- -- -- -- -- -- -->

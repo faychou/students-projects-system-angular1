@@ -14,7 +14,9 @@ $('#navbar').affix({
 $(window).scroll(function() {
     if ($('#navbar').hasClass('affix')) {
         $('.logo').attr('src', 'image/com/bf-logo.png');
+        $('.navbar-inverse .navbar-toggle .icon-bar').css({ 'backgroundColor': '#000' });
     } else {
         $('.logo').attr('src', 'image/com/bf-w-logo.png');
+        $('.navbar-inverse .navbar-toggle .icon-bar').css({ 'backgroundColor': '#fff' });
     }
 });

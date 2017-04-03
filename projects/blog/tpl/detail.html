@@ -1,0 +1,29 @@
+<!--详情页面-->
+<div class="detail container">
+    <h2 class="detail-title">{{articleDetail.title}}</h2>
+
+    <!-- 文章信息-->
+    <div class="detail-info">
+        <span>{{articleDetail.author}}</span>
+        <span>{{articleDetail.time}}</span>
+    </div>
+
+    <!--内容部分-->
+    <div class="detail-content">
+        <p>{{articleDetail.content}}</p>
+    </div>
+
+    <!--评论-->
+    <div class="detail-comments">
+        <h4>评论:</h4>
+        <div class="comments-area">
+            <textarea id="comment" ng-model="comment"></textarea>
+            <button type="button" ng-click="add()">评论</button>
+        </div>
+        <div class="comments-list">
+            <ul>
+                <li ng-repeat="x in commentArr">{{x}}</li>
+            </ul>
+        </div>
+    </div>
+</div>

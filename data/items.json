@@ -1,0 +1,71 @@
+{
+    "items": [{
+        "id": 1,
+        "author": [{
+            "name": "fay",
+            "resume": "projects/resume/index.html"
+        }, {
+            "name": "chou",
+            "resume": "http://www.faychou.com/newblog"
+        }],
+        "branch": "大前端",
+        "class": 1,
+        "itemName": "show system",
+        "label": "系统",
+        "description": "AngularJS是为了克服HTML在构建应用上的不足而设计的。HTML是一门很好的伪静态文本展示设计的声明式语言，但要构建WEB应用的话它就显得乏力了。而AngularJS是一种使用指令系统去实现WEB应用，你只需要对它填充具体的业务逻辑，是一个完整的客户端的解决方案。",
+        "url": "projects/todolist.html",
+        "exImg": "image/excellent/ex1.jpg",
+        "img": "image/all/all1.jpg"
+    }, {
+        "id": 2,
+        "author": [{
+            "name": "jay",
+            "resume": "projects/resume/index.html"
+        }, {
+            "name": "chou",
+            "resume": "http://www.faychou.com/newblog"
+        }],
+        "branch": "大前端",
+        "class": 1,
+        "itemName": "show system2",
+        "label": "系统",
+        "description": "AngularJS是为了克服HTML在构建应用上的不足而设计的。HTML是一门很好的伪静态文本展示设计的声明式语言，但要构建WEB应用的话它就显得乏力了。而AngularJS是一种使用指令系统去实现WEB应用，你只需要对它填充具体的业务逻辑，是一个完整的客户端的解决方案。",
+        "url": "projects/blog/index.html",
+        "exImg": "image/excellent/ex2.jpg",
+        "img": "image/all/all2.jpg"
+    }, {
+        "id": 3,
+        "author": [{
+            "name": "jack",
+            "resume": "projects/resume/index.html"
+        }, {
+            "name": "baur",
+            "resume": "http://www.faychou.com/newblog"
+        }],
+        "branch": "大前端",
+        "class": 2,
+        "itemName": "show system3",
+        "label": "系统",
+        "description": "AngularJS是为了克服HTML在构建应用上的不足而设计的。HTML是一门很好的伪静态文本展示设计的声明式语言，但要构建WEB应用的话它就显得乏力了。而AngularJS是一种使用指令系统去实现WEB应用，你只需要对它填充具体的业务逻辑，是一个完整的客户端的解决方案。",
+        "url": "projects/order/index.html",
+        "exImg": "image/excellent/ex3.jpg",
+        "img": "image/all/all3.jpg"
+    }, {
+        "id": 4,
+        "author": [{
+            "name": "fay",
+            "resume": "projects/resume/index.html"
+        }, {
+            "name": "jay",
+            "resume": "http://www.faychou.com/newblog"
+        }],
+        "branch": "大前端",
+        "class": 1,
+        "itemName": "show system4",
+        "label": "系统",
+        "description": "AngularJS是为了克服HTML在构建应用上的不足而设计的。HTML是一门很好的伪静态文本展示设计的声明式语言，但要构建WEB应用的话它就显得乏力了。而AngularJS是一种使用指令系统去实现WEB应用，你只需要对它填充具体的业务逻辑，是一个完整的客户端的解决方案。",
+        "url": "projects/search/index.html",
+        "exImg": "image/excellent/ex4.jpg",
+        "img": "image/all/all4.jpg"
+    }]
+}

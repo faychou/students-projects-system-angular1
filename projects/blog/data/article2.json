@@ -1,0 +1,13 @@
+{
+    "id": 2,
+    "title": "PowerPoint里面无法进行中文输入，原因为何？",
+    "label": "office",
+    "author": "飞舟",
+    "time": "2015-10-7",
+    "content": "微软的office系列软件很是好用，但是也伴随着很多的问题，今天就来谈谈PPT中无法输入中文的情况。 具体的症状应该是这样的： 在其它软件中（如记事本中）是可以打出中文字符的； 唯独PPT中只能输入英文，一旦切换到中文输入法时就无法打出中文； 可是却可以通过复制粘贴的方式将中文粘...",
+    "comments": ["学习了",
+        "讲得真好", "哈哈哈"
+    ],
+    "url": "http://www.faychou.com/powerpointwufashuruzhongwen/",
+    "hot": 52
+}

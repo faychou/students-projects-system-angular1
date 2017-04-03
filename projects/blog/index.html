@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>博客</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="blogApp">
+    <header>
+        <h1>个人博客</h1>
+    </header>
+    <div ng-view></div>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular-route.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <script>
+        var app = angular.module("blogApp",["ngRoute","ngAnimate"]); app.config(["$routeProvider",function($routeProvider) {
+            $routeProvider.when("/",{
+                controller:"MainCtrl",
+                templateUrl:"tpl/main.html"
+            })
+            .when("/detail/:id",{
+                controller:"DetailCtrl",
+                templateUrl:"tpl/detail.html"
+            })
+            .otherwise({redirectTo:"/"});
+        }]);
+        
+        app.factory("getData",["$http",function($http) {
+            return $http.get("data/article.json");
+        }]);
+        
+        
+        app.directive("articleList",function () {
+            return {
+                restrict:"AE",
+                replace:true,
+                scope:{
+                    article:"="
+                },
+                templateUrl:"tpl/article.html",
+                link:function(scope) {
+                    
+                }
+            }
+        });
+        
+        app.controller("MainCtrl",["$scope","getData",function ($scope,getData) {
+                getData.success(function(res) {
+                    $scope.articles = res.articles;
+                    //console.log(res.articles);
+                });
+        }]);
+        
+        app.controller("DetailCtrl",["$scope","$routeParams","$http",function($scope,$routeParams,$http){
+            $scope.id = $routeParams.id;
+            $scope.commentArr = [];
+            $scope.add=function() {
+                $scope.commentArr.push($scope.comment);
+                $scope.comment = "";
+            };
+            console.log($scope.id);
+            $http.get("data/article" + $scope.id + ".json")
+            .success(function(res) {
+                $scope.articleDetail = res;
+            })
+            
+        }]);
+    </script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+/*重置*/
+html,body,div,h1,p,a,ul,li,header,nav,section,footer,article{margin: 0;padding: 0; font-size: 100%;color: white;}
+header,nav,footer,section,article{display: block;}
+a{text-decoration: none;}
+li{list-style: none;}
+body{
+	background: url(../img/banner.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/*opacity: .8;*/
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/*导航*/
+#header{
+	background: rgba(0,0,0,.3);
+}
+
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav{
+	background: rgba(0,0,0,.3);
+	width: 100%;
+	height: 50px;
+}
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 10px;
+}
+
+nav ul li a{
+	display: inline-block;
+	height: inherit;
+	line-height: 50px;
+	color: white;
+}
+
+.logo{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: 700;
+	word-spacing: 2px;
+	padding-left: 10px;
+}
+
+.logo a{
+	color: white;
+}
+
+#header{
+/*	background: #777;*/
+	height: 700px;
+}
+
+.inner{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+
+.inner h1{
+	font-size: 40px;
+	font-weight: 800;
+	margin: 15px 0;
+}
+
+.inner button{
+	border: none;
+	background: #DE4343;
+	margin-top:20px; 
+	padding: 5px 20px;
+	font-size: 18px;
+	color: white;
+}
+
+#header .inner .more{
+	margin-top: 220px;
+	animation: moremove 1s infinite;
+}
+
+#header .inner .more span{
+	font-size: 28px;
+	color: #1E2DCC;
+	text-shadow: 1px 1px 5px #F7F8FF;
+	
+}
+
+@keyframes moremove{
+	0%{margin-top: 220px;}
+	50%{margin-top: 230px;}
+	100%{margin-top: 220px;}
+}
+
+/*about*/
+.per_infor{
+	background: #00b38c;
+	text-align: center;
+	color: white;
+	padding: 100px 0;
+}
+.sec_wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.hr{
+	width: 40%;
+	height: 2px;
+	margin: 20px auto;
+	background: #006C55; 
+}
+
+.sub_title{
+	font-size: 18px;
+	margin:0; 
+}
+
+.icon_group{
+	margin-top: 50px;
+}
+
+.per_infor .icon_group .icon_wrapper{
+	position: relative;
+	display: inline-block;
+	margin: 90px;
+	
+}
+
+.per_infor .icon_group .icon_wrapper:hover .icon_outline{
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.per_infor .icon_group .icon_wrapper:hover span:last-child{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.per_infor .icon_group .icon_outline{
+	display: inline-block;
+	/*position: absolute;*/
+	width: 80px;
+	height: 80px;
+	border: 1px solid #0D6F7C;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}  /*旋转外框*/
+
+.per_infor .icon_group .icon_wrapper span:last-child{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+	font-size: 40px;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+/*experience*/
+.per_exper{
+	background: #0A92DC;
+	text-align: center;
+	padding: 70px 0;
+}
+
+.per_exper h2{
+	margin: 30px 0;
+}
+
+.per_exper .hr{
+	background: #03486E;
+}
+
+.per_exper .sub_exper{
+	width: 100%;
+	margin: 50px auto;
+}
+
+.per_exper .sub_exper .sub_exper_text{
+	float: left;
+	width: 33.3333%;
+	
+}
+
+.per_exper .sub_exper .sub_exper_text div{
+	margin: 20px;
+	background: rgba(0,0,0,.5);
+	padding: 20px;
+}
+
+/*project*/
+.per_item{
+	background: #3E4153;
+	color:white; 
+}
+.per_item article{
+	overflow: hidden;
+	font-size: 0;
+}
+
+.per_item article:nth-child(odd){
+	background: rgba(255,255,255,.1);
+}
+
+.per_item article>div{
+	float: left;
+}
+
+.per_item .img_article{
+	width: 45%;
+}
+
+.per_item .img_article img{
+	width: 100%;
+}
+.per_item .text_article{
+	width: 55%;
+}
+
+.per_item .text_article .article_wrapper{
+	width: 80%;
+	margin:0 10%;
+}
+.per_item .text_article h2{
+	font-size: 28px;
+	margin: 30px 0;
+	line-height: 30px;
+}
+
+.per_item .text_article .sub_title{
+	font-size: 20px;
+}
+.per_item .text_article>p{
+	margin-top: 10px;
+}
+
+/*skill*/
+.per_skill{
+	background: #8CA794;
+	color: white;
+	overflow: hidden;
+}
+
+.per_skill .sec_wrapper{
+	text-align: center;
+}
+
+.per_skill .hr{
+	background: #59695E;
+}
+
+.per_skill .sec_wrapper .header_skill{
+	margin: 20px 0;
+}
+
+.per_skill .sec_wrapper .header_skill h2{
+	padding: 20px 0;
+}
+
+.card_group{
+	margin: 50px 0;
+}
+.card{
+	float: left;
+	width: 50%;
+	min-height: 200px;
+	padding: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.card:first-child{
+	background: rgba(0,0,0,.05);
+}
+
+.card:nth-child(2){
+	background: rgba(0,0,0,.1);
+}
+
+.card:nth-child(3){
+	background: rgba(0,0,0,.15);
+}
+
+.card:nth-child(4){
+	background: rgba(0,0,0,.2);
+}
+
+.card:nth-child(5){
+	background: rgba(0,0,0,.25);
+}
+
+.card:last-child{
+	background: rgba(0,0,0,.3);
+}
+
+/*footer*/
+footer{
+	background: #373e40;
+	height: 200px;
+	color: white;
+	text-align: center;
+}
+footer .contact_group{
+	padding-top: 50px;
+}
+
+footer .contact_group li{
+	display: inline-block;
+	margin: 0 20px;
+}
+
+footer .contact_group li span{
+	color: white;
+	font-size: 48px;
+}
+
+/*回到顶部*/
+#top_div{ 
+  position:fixed; 
+  bottom:80px; 
+  right:15px; 
+  display:none; 
+  font-size: 36px;
+  transition: all .3s;
+}
+
+#top_div:hover{
+	color: #CBCCD3;
+	transform: rotate(360deg);
+	text-shadow: 1px 1px 5px #EAAC00,-1px -1px 5px #EAAC00;
+} 
+
+
+
+
+
