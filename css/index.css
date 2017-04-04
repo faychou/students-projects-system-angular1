@@ -141,11 +141,16 @@ a:hover {
 .items-type h5 a {
     font-size: 20px;
     color: #333;
+    text-decoration: none;
 }
 
 .items-type h5 a:hover {
     color: lightcoral;
     text-decoration: none;
+}
+
+.items-type .active{
+    color:lightcoral;
 }
 
 

@@ -1,9 +1,9 @@
 var app = angular.module("bunflyApp", ["ui.router", "ngAnimate"]);
 app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("");
+    $urlRouterProvider.otherwise("/");
     $stateProvider
         .state("excellent", {
-            url: "",
+            url: "/",
             templateUrl: "tpl/excellent.html"
         })
         .state("all", {

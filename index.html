@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="renderer" content="webkit">
+    <meta name="kyewords" content="成都邦飞科技有限公司,项目,大前端,web前端,全栈工程师">
+    <meta name="description" content="成都邦飞科技有限公司学员项目展示系统">
     <title>成都邦飞科技有限公司学员项目展示系统</title>
     <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,7 +17,7 @@
     <![endif]-->
 </head>
 
-<body ng-app="bunflyApp">
+<body ng-app="bunflyApp" ng-controller="BunflyCtrl">
     <!-- -- -- -- -- -- -- 头部导航 -- -- -- -- -- -- -->
     <header>
         <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
@@ -40,7 +42,7 @@
                     </ul>
                     <form class="navbar-form navbar-right">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search …">
+                            <input type="text" class="form-control" ng-model="search" placeholder="Search …">
                         </div>
                     </form>
                 </div>
@@ -50,15 +52,15 @@
         </nav>
     </header>
 
-    <!-- 最外层居中效果 -->
+    <!-- 最外层居中 -->
     <div class="container wrap">
         <!-- -- -- -- -- -- -- 中间项目展示 -- -- -- -- -- -- -->
-        <div id="main" ng-controller="BunflyCtrl">
+        <div id="main">
             <!--项目分类-->
             <div class="items-type">
                 <h5 class="clearfix text-center">
-                    <a href="#" class=""> 优秀作品</a> ·
-                    <a href="#/all" class="">全部作品</a>
+                    <a href="" ui-sref-active="active" ui-sref="excellent" class=""> 优秀作品</a> ·
+                    <a href="" ui-sref-active="active" ui-sref="all" class="">全部作品</a>
                 </h5>
             </div>
             <!--项目列表-->
