@@ -1,0 +1,53 @@
+<!-- -- -- -- -- -- -- 头部导航 -- -- -- -- -- -- -->
+<header>
+    <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- 小屏幕显示菜单按钮 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="">
+                    <img class="logo" alt="bunfly" src="image/com/bf-w-logo.png">
+                </a>
+            </div>
+
+            <!-- 导航及搜索 -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href=""><span class="glyphicon glyphicon-home"></span> 项目</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" ng-model="search" placeholder="Search …">
+                    </div>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</header>
+
+<!-- 最外层居中 -->
+<div class="container wrap">
+    <!-- -- -- -- -- -- -- 中间项目展示 -- -- -- -- -- -- -->
+    <div id="main">
+        <!--项目分类-->
+        <div class="items-type">
+            <h5 class="clearfix text-center">
+                <a href="" ui-sref-active="active" ui-sref="main.excellent"> 优秀作品</a> ·
+                <a href="" ui-sref-active="active" ui-sref="main.all">全部作品</a>
+            </h5>
+        </div>
+        <!--项目列表-->
+        <div ui-view></div>
+    </div>
+
+    <!-- -- -- -- -- -- -- 底部 -- -- -- -- -- -- -->
+    <footer class="footer"></footer>
+</div>
+<!--最外层 .container 结束-->

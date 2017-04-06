@@ -6,7 +6,7 @@ app.directive("excellentItem", function() {
             item: "="
         },
         templateUrl: "tpl/excellent-item.html"
-    }
+    };
 }).directive("allItem", function() {
     return {
         restrict: "AE",
@@ -15,5 +15,5 @@ app.directive("excellentItem", function() {
             item: "="
         },
         templateUrl: "tpl/all-item.html"
-    }
+    };
 });

@@ -1,4 +1,52 @@
-/*-- -- -- -- -- -- 头部导航 -- -- -- -- -- -- */
+html,
+body,
+div,
+a,
+img,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+nav,
+footer,
+ul,
+li,
+button,
+form,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+footer {
+    display: block;
+}
+
+body {
+    font-size: 16px;
+    background: #f4f4f4;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: #26282c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1894da;
+    text-decoration: none;
+};/*-- -- -- -- -- -- 头部导航 -- -- -- -- -- -- */
 
 .navbar {
     border-radius: 0;
