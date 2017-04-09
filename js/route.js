@@ -1,5 +1,5 @@
 app.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("");
+    $urlRouterProvider.when("", "/").otherwise("/");
     $stateProvider
         .state("main", {
             url: "",

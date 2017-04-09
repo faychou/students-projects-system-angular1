@@ -14,9 +14,6 @@ module.exports = function(grunt) {
             js: {
                 src: ['js/grid.js', 'js/index.js', 'js/route.js', 'js/server.js', 'js/directive.js'],
                 dest: 'build/js/app.js'
-            },
-            css: {
-                files: { 'build/css/app.css': 'css/*.css' }
             }
         },
 
@@ -41,7 +38,7 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'build/css/app.min.css': 'build/css/app.css'
+                    'build/css/app.min.css': 'css/*.css'
                 }
             }
         },
@@ -67,8 +64,8 @@ module.exports = function(grunt) {
                 files: [
                     'index.html',
                     'tpl/*.html',
-                    'build/css/app.min.css',
-                    'build/js/app.min.js',
+                    'build/css/*.css',
+                    'build/js/*.js',
                     'data/*.json',
                     'Gruntfile.js'
                 ]

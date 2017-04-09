@@ -9,7 +9,6 @@ $('#navbar').affix({
         top: 1
     }
 });
-console.log($("#showPro").width());
 // 动态更换logo
 $(window).scroll(function() {
     if ($('#navbar').hasClass('affix')) {
