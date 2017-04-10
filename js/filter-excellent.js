@@ -7,7 +7,6 @@ app.filter("filterExcellent", function() {
                 arr.push(value);
             }
         });
-        console.log(arr);
         return arr;
     };
 });

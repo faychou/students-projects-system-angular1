@@ -159,7 +159,23 @@
     transform: scale(1.05);
 }
 
-.all-item {}
+@media (min-width: 768px) {
+    .excellent-item-text {
+        height: 66px;
+    }
+}
+
+@media (min-width: 992px) {
+    .excellent-item-text {
+        height: 110px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .excellent-item-text {
+        height: 88px;
+    }
+}
 
 .all-item-img {
     float: left;
