@@ -5,9 +5,9 @@ students projects system by angular.js 1.x.x
 1、图片：
 
     exImg大小：515 * 387
-    exImg地址：images/excellent/自己名字拼音/项目名字拼音-l.jpg
+    exImg地址：build/images/excellent/自己名字拼音/项目名字拼音-l.jpg
     img大小：310 * 233
-    img地址：images/all/自己名字拼音/项目名字拼音-s.jpg
+    img地址：build/images/all/自己名字拼音/项目名字拼音-s.jpg
 
 2、项目：
 
