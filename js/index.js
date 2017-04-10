@@ -24,10 +24,10 @@ app.controller("BunflyCtrl", ["$scope", "getData", function($scope, getData) {
             // 动态更换logo
             $(window).scroll(function() {
                 if ($('#navbar').hasClass('affix')) {
-                    $('.logo').attr('src', 'image/com/bf-logo.png');
+                    $('.logo').attr('src', 'build/images/com/bf-logo.png');
                     $('.navbar-inverse .navbar-toggle .icon-bar').css({ 'backgroundColor': '#000' });
                 } else {
-                    $('.logo').attr('src', 'image/com/bf-w-logo.png');
+                    $('.logo').attr('src', 'build/images/com/bf-w-logo.png');
                     $('.navbar-inverse .navbar-toggle .icon-bar').css({ 'backgroundColor': '#fff' });
                 }
             });
