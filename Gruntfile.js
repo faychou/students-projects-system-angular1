@@ -8,11 +8,8 @@ module.exports = function(grunt) {
         },
 
         concat: {
-            options: {
-                separator: ';'
-            },
             js: {
-                src: ['js/grid.js', 'js/index.js', 'js/route.js', 'js/server.js', 'js/directive.js'],
+                src: ['js/grid.js', 'js/index.js', 'js/route.js', 'js/server.js', 'js/filter-excellent.js', 'js/directive.js'],
                 dest: 'build/js/app.js'
             }
         },
@@ -64,8 +61,8 @@ module.exports = function(grunt) {
                 files: [
                     'index.html',
                     'tpl/*.html',
-                    'build/css/*.css',
-                    'build/js/*.js',
+                    'build/css/app.min.css',
+                    'build/js/app.js',
                     'data/*.json',
                     'Gruntfile.js'
                 ]
